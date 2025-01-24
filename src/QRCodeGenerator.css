@@ -1,0 +1,66 @@
+/* QRCodeGenerator.css */
+.qr-generator-container {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .qr-generator-card {
+    display: inline-block;
+    padding: 2rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .qr-generator-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .qr-generator-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .qr-generator-button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .qr-generator-error {
+    color: #ff4d4d;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  
+  .qr-code-display {
+    margin-top: 1.5rem;
+  }
+  
+  .qr-code-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333333;
+    margin-bottom: 2rem;
+  }
+
+.demo{
+    color: red;
+}
