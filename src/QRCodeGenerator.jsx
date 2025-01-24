@@ -48,7 +48,7 @@ const QRCodeGenerator = () => {
     // </div>
 
     <div className="qr-generator-container">
-    <h1>WhatsApp Connecting Device QR Code -<strong className="demo">Demo</strong></h1>
+    <h1>WhatsApp Connecting Device QR Code - <strong className="demo">Demo</strong></h1>
     <div className="qr-generator-card">
       <button
         className={`qr-generator-button ${loading ? "loading" : ""}`}
